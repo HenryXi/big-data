@@ -1,0 +1,12 @@
+.idea/
+*.iml
+.project
+.settings/
+.classpath
+target/
+.externalToolBuilders/
+deploy/templates/log4j.xml
+deploy/templates/log4j2.xml
+src/main/webapp/node_modules/
+target/
+.DS_Store
