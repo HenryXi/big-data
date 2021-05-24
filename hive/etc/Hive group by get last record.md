@@ -25,7 +25,7 @@ The sql is like this.
 with temp as(
     select id,max(timestamp) from A group by id
 )
-select * from A left join temp on A.id = temp.id and A.timestamp = temp.timestamp
+select A.* from A left join temp on A.id = temp.id and A.timestamp = temp.timestamp
 ```
 
 EOF
