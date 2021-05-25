@@ -26,3 +26,5 @@ select count(*) as total,
   sum(case when score>=80 and score<100 then 1 else 0 end ) as level3
 from scores
 ```
+
+EOF
